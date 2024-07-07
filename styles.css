@@ -1,0 +1,91 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF; /* White */
+    color: #333333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFFFF; /* White */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #C53678; /* Red-Violet */
+}
+
+.box-container {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    background-color: #FF5841; /* Sunset Orange */
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.box {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    bottom: 75px;
+    left: 40px;
+    background-color: #FFFFFF; /* White */
+    width: 100px;
+    height: 100px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.profile-info {
+    position: absolute;
+    top: 10;
+    right: 0; /*this shoots it way off to the left */
+    left: 490; /*this moves it to the right but I can't seem to get it more centred and i don't understand */
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #f5f2f2; /* Dark Gray */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #C53678; /* Red-Violet */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #FF5841; /* Sunset Orange */
+    margin-bottom: 5px;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #888888;
+}
